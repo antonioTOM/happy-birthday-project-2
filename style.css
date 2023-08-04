@@ -1,0 +1,89 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.designyourway.net/blog/wp-content/uploads/2018/06/Seamless-Polygon-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+*{
+    border: solid 1px;
+}
+main {
+    width: calc(95% - 25vw);
+    min-height: 70vh;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.5);
+    background-image: url('https://i.pinimg.com/736x/15/39/9a/15399a834c2f91a5e2b642d968f3e7dc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 1vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 3em;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2vw 0;
+    display: flex;
+    align-items: center;
+}
+.navbar-login {
+    margin: 0;
+}
+.navbar {
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+li {
+    margin: 3px calc(2vw + 17px);
+    font-family: 'Fraunces', serif;
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.75);
+}
+a:hover {
+    color: black;
+}
+.current, .current:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+header {
+    padding: 5px;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    font-size: larger;
+    height: fit-content;
+    font-family: 'Fraunces', serif;
+}
+picture {
+    width: calc(50vw - 100px);
+    max-width: 600px;
+}
+.hand-heart {
+    height: 100%;
+    width: 100%;
+}
